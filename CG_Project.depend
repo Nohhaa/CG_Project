@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1684411662 source:c:\users\mbr\onedrive\documents\cg_project\main.cpp
+	<tchar.h>
+	<windows.h>
+	<bits/stdc++.h>
+	<fstream>
+	<iostream>
+	<math.h>
+
