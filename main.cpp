@@ -2329,21 +2329,21 @@ case WM_RBUTTONDOWN:
 
              else if (case_num == 24)//Ellipse  polar
             {
-                EllipsePolar(hdc, A, B, x11, y11, color);
+                EllipsePolar(hdc, B,A , x11, y11, color);
                 save("s24",color);
                 savePoint(A,B);
                 savePoint(x11,y11);
             }
             else if (case_num == 25) //Ellipse Direct
             {
-                Direct_Ellipse(hdc, A, B, x11, y11, color);
+                Direct_Ellipse(hdc, B, A, x11, y11, color);
                 save("s25",color);
                 savePoint(A,B);
                 savePoint(x11,y11);
             }
              else if (case_num == 26) //Ellipse midpoint
             {
-                Mid_Ellipse(hdc, A, B, x11, y11, color);
+                Mid_Ellipse(hdc, B, A, x11, y11, color);
                 save("s26",color);
                 savePoint(A,B);
                 savePoint(x11,y11);
